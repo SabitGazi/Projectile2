@@ -86,6 +86,7 @@ nav ul{
     .body{
         font-size: 36px;
         line-height: 50px;
+        
     }
 }
  /* feature-part */
@@ -173,6 +174,10 @@ nav ul{
     margin-top: 16px;
     margin-bottom: -20px;
 }
+.shadow-box:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
 .icon-of{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -199,6 +204,10 @@ nav ul{
 .Sponspors{
     background-color: whitesmoke;
 
+}
+.Sponspors-icon:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
 }
 .last-line, h3 , p{
  text-align: center;
